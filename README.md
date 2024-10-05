@@ -33,13 +33,6 @@ https://jsonplaceholder.typicode.com/
                 let body = "";
                 console.log(data[1].name);
                 console.log(data.length);
-                /*
-                for (let i = 0; i < data.length; i++) {                  //El ciclo for recorre el arreglo obteniendo
-                    //todos los elementos y concatenandolos en la cadena "body"
-                    body += `${data[i].id} ${data[i].name} ${data[i].username} ${data[i].email} ${data[i].address.street} <br>`;
-                }
-                document.getElementById('data').innerHTML = body;       //La cadena "body" es escrita en el id="data" del html 
-                */
             }
         </script>
 
@@ -48,3 +41,4 @@ https://jsonplaceholder.typicode.com/
     </html>
 
 
+Practica
